@@ -1,0 +1,52 @@
+{
+  "playlist": {
+    "like_btn": {
+      "loc": "//*[@id=\"main\"]/div/div[2]/div[3]/main/div[2]/div[2]/div/div/div[2]/section/div[2]/div[2]/div/button[2]",
+      "method": "XPATH",
+      "methods": ["XPATH","JS PATH","CSS_SELECTOR","CLASS_NAME","ID","NAME"]
+    },
+    "tracks": {
+      "loc": "//div[contains (@class, \"KEMO\")]/span",
+      "method": "XPATH",
+      "methods": ["XPATH","JS PATH","CSS_SELECTOR","CLASS_NAME","ID","NAME"]
+    },
+    "like_check": {
+      "attr": "aria-label",
+      "text": "Save"
+    }
+  },
+  "album": {
+    "like_btn": {
+      "loc": "//*[@id=\"main\"]/div/div[2]/div[3]/main/div[2]/div[2]/div/div/div[2]/section/div[3]/div/button[2]",
+      "method": "XPATH",
+      "methods": ["XPATH","JS PATH","CSS_SELECTOR","CLASS_NAME","ID","NAME"]
+    },
+    "tracks": {
+      "loc": "//div[contains (@class, \"KEMO\")]/span",
+      "method": "XPATH",
+      "methods": ["XPATH","JS PATH","CSS_SELECTOR","CLASS_NAME","ID","NAME"]
+    },
+    "like_check": {
+      "attr": "aria-label",
+      "text": "Save"
+    }
+  },
+  "login": {
+    "login_btn": {
+      "loc": "//*[@id=\"main\"]/div/div[2]/div[1]/header/div[4]/button[2]",
+      "method": "XPATH"
+    },
+    "email": {
+      "loc": "document.querySelector(\"#login-username\")",
+        "method": "JS PATH"
+    },
+    "password": {
+      "loc": "document.querySelector(\"#login-password\")",
+      "method": "JS PATH"
+    },
+    "cookie_btn": {
+      "loc": "//*[@id=\"onetrust-close-btn-container\"]/button",
+      "method": "XPATH"
+    }
+  }
+}
