@@ -1,5 +1,17 @@
 {
    "playlist": {
+      "tracks_scroll": {
+         "loc": "document.querySelector(\"#main > div > div.Root__top-container > div.Root__main-view > main > div.os-host.os-host-foreign.os-theme-spotify.os-host-resize-disabled.os-host-scrollbar-horizontal-hidden.main-view-container__scroll-node.os-host-transition.os-host-overflow.os-host-overflow-y > div.os-padding > div\")",
+         "method": "JS PATH",
+         "methods": [
+            "XPATH",
+            "JS PATH",
+            "CSS_SELECTOR",
+            "CLASS_NAME",
+            "ID",
+            "NAME"
+         ]
+      },
       "like_btn": {
          "loc": "//*[@id=\"main\"]/div/div[2]/div[3]/main/div[2]/div[2]/div/div/div[2]/section/div[2]/div[2]/div/button[2]",
          "method": "XPATH",
@@ -13,8 +25,8 @@
          ]
       },
       "tracks": {
-         "loc": "//div[contains (@class, \"KEMO\")]/span",
-         "method": "XPATH",
+         "loc": "document.getElementsByClassName('RfidWIoz8FON2WhFoItU')",
+         "method": "JS PATH",
          "methods": [
             "XPATH",
             "JS PATH",
@@ -30,6 +42,18 @@
       }
    },
    "album": {
+     "tracks_scroll": {
+         "loc": "document.querySelector(\"#main > div > div.Root__top-container > div.Root__main-view > main > div.os-host.os-host-foreign.os-theme-spotify.os-host-resize-disabled.os-host-scrollbar-horizontal-hidden.main-view-container__scroll-node.os-host-transition.os-host-overflow.os-host-overflow-y > div.os-padding > div\")",
+         "method": "JS PATH",
+         "methods": [
+            "XPATH",
+            "JS PATH",
+            "CSS_SELECTOR",
+            "CLASS_NAME",
+            "ID",
+            "NAME"
+         ]
+      },
       "like_btn": {
          "loc": "//*[@id=\"main\"]/div/div[2]/div[3]/main/div[2]/div[2]/div/div/div[2]/section/div[3]/div/button[2]",
          "method": "XPATH",
@@ -43,8 +67,8 @@
          ]
       },
       "tracks": {
-         "loc": "//button[contains(@aria-label, 'Play') and contains(@data-testid, 'play-button') and contains(@style, '--size:40px;')]",
-         "method": "XPATH",
+         "loc": "document.getElementsByClassName('RfidWIoz8FON2WhFoItU')",
+         "method": "JS PATH",
          "methods": [
             "XPATH",
             "JS PATH",
@@ -61,7 +85,7 @@
    },
    "login": {
       "login_btn": {
-         "loc": "//*[@id=\"main\"]/div/div[2]/div[1]/header/div[4]/button[2]",
+         "loc": "//*[@id=\"main\"]/div/div[2]/div[1]/header/div[5]/button[2]",
          "method": "XPATH"
       },
       "email": {
