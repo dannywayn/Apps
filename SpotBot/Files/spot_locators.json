@@ -97,8 +97,8 @@
          "method": "JS PATH"
       },
       "cookie_btn": {
-         "loc": "//*[@id=\"onetrust-close-btn-container\"]/button",
-         "method": "XPATH"
+         "loc": "document.querySelector(\"#onetrust-accept-btn-handler\")",
+         "method": "JS PATH"
       }
    }
 }
