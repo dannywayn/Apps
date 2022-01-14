@@ -85,7 +85,7 @@
    },
    "login": {
       "login_btn": {
-         "loc": "//*[@id=\"main\"]/div/div[2]/div[1]/header/div[5]/button[2]",
+         "loc": "//button[@data-testid='login-button']",
          "method": "XPATH"
       },
       "email": {
