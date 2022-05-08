@@ -196,7 +196,7 @@
          "method": "JS PATH"
       },
       "cookie_btn": {
-         "loc": ["//*[@id=\"onetrust-close-btn-container\"]/button",'//*[@id="onetrust-accept-btn-handler"]'],
+         "loc": ["//*[@id=\"onetrust-close-btn-container\"]/button","//*[@id=\"onetrust-accept-btn-handler\"]"],
          "method": "XPATH"
       },
       "login_btn_form": {
