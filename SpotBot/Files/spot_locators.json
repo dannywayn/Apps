@@ -83,36 +83,13 @@
          "text": "Save"
       }
    },
-   "login": {
-      "login_btn": {
-         "loc": "//button[@data-testid='login-button']",
+   "artist": {
+      "play_btn": {
+         "loc": "//*[@id=\"main\"]/div/div[2]/div[3]/div[1]/div[2]/div[2]/div/div/div[2]/main/section/div/div[2]/div[2]/div/div/button",
          "method": "XPATH"
       },
-      "email": {
-         "loc": "document.querySelector(\"#login-username\")",
-         "method": "JS PATH"
-      },
-      "password": {
-         "loc": "document.querySelector(\"#login-password\")",
-         "method": "JS PATH"
-      },
-      "cookie_btn": {
-         "loc": {
-   "playlist": {
-      "tracks_scroll": {
-         "loc": "document.querySelector(\"#main > div > div.Root__top-container > div.Root__main-view > main > div.os-host.os-host-foreign.os-theme-spotify.os-host-resize-disabled.os-host-scrollbar-horizontal-hidden.main-view-container__scroll-node.os-host-transition.os-host-overflow.os-host-overflow-y > div.os-padding > div\")",
-         "method": "JS PATH",
-         "methods": [
-            "XPATH",
-            "JS PATH",
-            "CSS_SELECTOR",
-            "CLASS_NAME",
-            "ID",
-            "NAME"
-         ]
-      },
-      "like_btn": {
-         "loc": "//*[@id=\"main\"]/div/div[2]/div[3]/main/div[2]/div[2]/div/div/div[2]/section/div[2]/div[2]/div/button[2]",
+      "follow_btn": {
+         "loc": "//*[@id=\"main\"]/div/div[2]/div[3]/div[1]/div[2]/div[2]/div/div/div[2]/main/section/div/div[2]/div[2]/div/button[1]",
          "method": "XPATH",
          "methods": [
             "XPATH",
@@ -123,63 +100,8 @@
             "NAME"
          ]
       },
-      "tracks": {
-         "loc": "document.getElementsByClassName('RfidWIoz8FON2WhFoItU')",
-         "method": "JS PATH",
-         "methods": [
-            "XPATH",
-            "JS PATH",
-            "CSS_SELECTOR",
-            "CLASS_NAME",
-            "ID",
-            "NAME"
-         ]
-      },
-      "like_check": {
-         "attr": "aria-label",
-         "text": "Save"
-      }
-   },
-   "album": {
-     "tracks_scroll": {
-         "loc": "document.querySelector(\"#main > div > div.Root__top-container > div.Root__main-view > main > div.os-host.os-host-foreign.os-theme-spotify.os-host-resize-disabled.os-host-scrollbar-horizontal-hidden.main-view-container__scroll-node.os-host-transition.os-host-overflow.os-host-overflow-y > div.os-padding > div\")",
-         "method": "JS PATH",
-         "methods": [
-            "XPATH",
-            "JS PATH",
-            "CSS_SELECTOR",
-            "CLASS_NAME",
-            "ID",
-            "NAME"
-         ]
-      },
-      "like_btn": {
-         "loc": "//*[@id=\"main\"]/div/div[2]/div[3]/main/div[2]/div[2]/div/div/div[2]/section/div[3]/div/button[2]",
-         "method": "XPATH",
-         "methods": [
-            "XPATH",
-            "JS PATH",
-            "CSS_SELECTOR",
-            "CLASS_NAME",
-            "ID",
-            "NAME"
-         ]
-      },
-      "tracks": {
-         "loc": "document.getElementsByClassName('RfidWIoz8FON2WhFoItU')",
-         "method": "JS PATH",
-         "methods": [
-            "XPATH",
-            "JS PATH",
-            "CSS_SELECTOR",
-            "CLASS_NAME",
-            "ID",
-            "NAME"
-         ]
-      },
-      "like_check": {
-         "attr": "aria-label",
-         "text": "Save"
+      "follow_check": {
+         "text": "FOLLOW"
       }
    },
    "login": {
@@ -197,14 +119,6 @@
       },
       "cookie_btn": {
          "loc": ["//*[@id=\"onetrust-close-btn-container\"]/button","//*[@id=\"onetrust-accept-btn-handler\"]"],
-         "method": "XPATH"
-      },
-      "login_btn_form": {
-         "loc": "//button[@data-testid='login-button']",
-         "method": "XPATH"
-      }
-   }
-},
          "method": "XPATH"
       },
       "login_btn_form": {
