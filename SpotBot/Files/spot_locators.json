@@ -85,7 +85,7 @@
    },
    "artist": {
       "play_btn": {
-         "loc": "//*[@id=\"main\"]/div/div[2]/div[3]/div[1]/div[2]/div[2]/div/div/div[2]/main/section/div/div[2]/div[2]/div/div/button",
+         "loc": ["//*[@id=\"main\"]/div/div[2]/div[3]/div[1]/div[2]/div[2]/div/div/div[2]/main/section/div/div[2]/div[2]/div/div/button","//*[@id=\"main\"]/div/div[2]/div[3]/div[1]/div[2]/div[2]/div/div/div[2]/main/section/div[3]/div[2]/div/div/div/button"],
          "method": "XPATH"
       },
       "follow_btn": {
