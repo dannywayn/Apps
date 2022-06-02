@@ -44,7 +44,7 @@
    "album": {
      "tracks_scroll": {
          "loc": "//*[@id=\"main\"]/div/div[2]/div[3]/div[1]/div[2]/div[2]/div",
-         "method": "JS PATH",
+         "method": "XPATH",
          "methods": [
             "XPATH",
             "JS PATH",
